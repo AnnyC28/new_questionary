@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Tangerine:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-titulo: "Playwrite GB S", cursive;
+    --fonte-texto: "Tangerine", cursive;
+    --roxo-espaco: #22223bff;
+    --ultra-violeta: #4a4e69ff;
+    --rose-quartzo: #9a8c98ff;
+    --rosinha: #c9ada7ff;
+    --clarinho: #f2e9e4ff;
+}
+
