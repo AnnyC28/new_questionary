@@ -14,4 +14,47 @@
     --rosinha: #c9ada7ff;
     --clarinho: #f2e9e4ff;
 }
-
+body{
+    font-family: var(--fonte-titulo);
+    background-color: var(--roxo-espaco);
+    color: var(--rose-quartzo);
+    height: 100vh;
+}
+header{
+    background-color: var(--ultra-violeta);
+    text-align: center;
+}
+h1{
+    font-family: var(--fonte-titulo);
+    font-size: 2rem;
+    padding: 1.2rem 0;
+    color: var(--rosinha);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    color: var(--rosinha);
+    margin: 0 2rem 1rem 0;
+    font-size: 1.5rem;
+}
+nav a:hover{
+    text-decoration: underline;
+    font-size: 1.7rem;
+    color: var(--roxo-espaco);
+    transition: 0.5s;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--ultra-violeta);
+    color: var(--rose-quartzo);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+}
