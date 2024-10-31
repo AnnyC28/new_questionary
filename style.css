@@ -15,9 +15,9 @@
     --clarinho: #f2e9e4ff;
 }
 body{
-    font-family: var(--fonte-titulo);
+    font-family: var(--fonte-texto);
     background-color: var(--roxo-espaco);
-    color: var(--rose-quartzo);
+    color: var(--ultra-violeta);
     height: 100vh;
 }
 header{
@@ -39,13 +39,25 @@ nav a{
     text-decoration: none;
     color: var(--rosinha);
     margin: 0 2rem 1rem 0;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 nav a:hover{
     text-decoration: underline;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: var(--roxo-espaco);
     transition: 0.5s;
+}
+
+.caixa-grafico{
+    margin: 3rem;
+    border: 3px double var(--ultra-violeta);
+    background-color: var(--rose-quartzo);
+}
+
+.caixa-grafico__texto{
+    padding: 2em;
+    font-size: 4em;
+    text-align: center;
 }
 footer{
     display: flex;
